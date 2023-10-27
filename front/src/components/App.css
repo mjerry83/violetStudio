@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "HakgyoansimWoojuR";
+  font-weight: 50;
+  src: url("../font/HakgyoansimWoojuR.ttf") format("truetype");
+}
+
+/* 폰트 적용하기
+https://velog.io/@lifeisbeautiful/React-%ED%8F%B0%ED%8A%B8%EC%9E%85%ED%98%80%EB%B3%B4%EA%B8%B0 */
