@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.296c2636.css",
-    "main.js": "/static/js/main.11179f52.js",
-    "static/js/787.71df535f.chunk.js": "/static/js/787.71df535f.chunk.js",
-    "static/media/강휘성_5주차 (1).png": "/static/media/강휘성_5주차 (1).066a3f36efd80c7e2362.png",
-    "static/media/강휘성_5주차 (2).png": "/static/media/강휘성_5주차 (2).b704d198b170835066db.png",
-    "static/media/HakgyoansimWoojuR.ttf": "/static/media/HakgyoansimWoojuR.964f234229e1dcfec129.ttf",
-    "static/media/title예시.png": "/static/media/title예시.8afdb583b1978de84e72.png",
-    "static/media/강휘성 7주차-4.gif": "/static/media/강휘성 7주차-4.8f3fe94966b4732ae380.gif",
-    "static/media/강휘성 7주차-3.gif": "/static/media/강휘성 7주차-3.e05d5b90b0f636820479.gif",
-    "static/media/강휘성 7주차-1.gif": "/static/media/강휘성 7주차-1.0f232426a8488e0d4ad4.gif",
-    "static/media/강휘성-어머니1.png": "/static/media/강휘성-어머니1.8e1e33969930e879ebf6.png",
-    "static/media/강휘성-아버지1.png": "/static/media/강휘성-아버지1.1982a3994564e69f065e.png",
-    "static/media/강휘성-기차1.png": "/static/media/강휘성-기차1.1b204193503958d8bbd3.png",
-    "index.html": "/index.html",
-    "main.296c2636.css.map": "/static/css/main.296c2636.css.map",
-    "main.11179f52.js.map": "/static/js/main.11179f52.js.map",
-    "787.71df535f.chunk.js.map": "/static/js/787.71df535f.chunk.js.map"
+    "main.css": "/violetStudio/static/css/main.51955708.css",
+    "main.js": "/violetStudio/static/js/main.9d1e5cbe.js",
+    "static/js/787.71df535f.chunk.js": "/violetStudio/static/js/787.71df535f.chunk.js",
+    "static/media/강휘성_5주차 (1).png": "/violetStudio/static/media/강휘성_5주차 (1).066a3f36efd80c7e2362.png",
+    "static/media/강휘성_5주차 (2).png": "/violetStudio/static/media/강휘성_5주차 (2).b704d198b170835066db.png",
+    "static/media/HakgyoansimWoojuR.ttf": "/violetStudio/static/media/HakgyoansimWoojuR.964f234229e1dcfec129.ttf",
+    "static/media/title예시.png": "/violetStudio/static/media/title예시.8afdb583b1978de84e72.png",
+    "static/media/강휘성 7주차-4.gif": "/violetStudio/static/media/강휘성 7주차-4.8f3fe94966b4732ae380.gif",
+    "static/media/강휘성 7주차-3.gif": "/violetStudio/static/media/강휘성 7주차-3.e05d5b90b0f636820479.gif",
+    "static/media/강휘성 7주차-1.gif": "/violetStudio/static/media/강휘성 7주차-1.0f232426a8488e0d4ad4.gif",
+    "static/media/강휘성-어머니1.png": "/violetStudio/static/media/강휘성-어머니1.8e1e33969930e879ebf6.png",
+    "static/media/강휘성-아버지1.png": "/violetStudio/static/media/강휘성-아버지1.1982a3994564e69f065e.png",
+    "static/media/강휘성-기차1.png": "/violetStudio/static/media/강휘성-기차1.1b204193503958d8bbd3.png",
+    "index.html": "/violetStudio/index.html",
+    "main.51955708.css.map": "/violetStudio/static/css/main.51955708.css.map",
+    "main.9d1e5cbe.js.map": "/violetStudio/static/js/main.9d1e5cbe.js.map",
+    "787.71df535f.chunk.js.map": "/violetStudio/static/js/787.71df535f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.296c2636.css",
-    "static/js/main.11179f52.js"
+    "static/css/main.51955708.css",
+    "static/js/main.9d1e5cbe.js"
   ]
 }
