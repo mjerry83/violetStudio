@@ -15,7 +15,7 @@ import WonheeWorldPage from "../pages/StudentPage/WonheeWorldPage";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<MainPage />}></Route>
           <Route path="/student" element={<StudentPage />}></Route>
