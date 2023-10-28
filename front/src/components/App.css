@@ -1,7 +1,33 @@
 @font-face {
   font-family: "HakgyoansimWoojuR";
-  font-weight: 50;
   src: url("../font/HakgyoansimWoojuR.ttf") format("truetype");
+}
+
+@media (min-width: 360px) {
+  h3 {
+    font-size: 0.8rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 720px) {
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  h3 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
 }
 
 /* 폰트 적용하기

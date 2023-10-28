@@ -1,379 +1,114 @@
 import React from "react";
-import { Stack, Container, Row, Col } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import styled from "styled-components";
 
-import 타이틀예시 from "../images/title예시.png";
+import IntroSection from "../../common/Intro";
+import Section01 from "../../common/Section01";
+import Section02 from "../../common/Section02";
+import Section03 from "../../common/Section03";
+import Section04 from "../../common/Section04";
 
-import 강휘성작품1 from "../images/5주차 작품/강휘성_5주차 (1).png";
-import 강휘성작품2 from "../images/7주차 작품/강휘성 7주차-1.gif";
-import 강휘성작품3 from "../images/5주차 작품/강휘성_5주차 (2).png";
-import 강휘성작품4 from "../images/7주차 작품/강휘성 7주차-3.gif";
-import 강휘성작품5 from "../images/7주차 작품/강휘성 7주차-4.gif";
+import 강휘성표지 from "../images/표지/강휘성-표지.png";
+import 강휘성_나를이루는것들1 from "../images/5주차 작품/강휘성_5주차 (1).png";
+import 강휘성_나를이루는것들2 from "../images/5주차 작품/강휘성_5주차 (2).png";
+import 강휘성_좋아하는공간 from "../images/7주차 작품/강휘성 7주차-1.gif";
+import 강휘성_빠른기차고든 from "../images/7주차 작품/강휘성 7주차-3.gif";
+import 강휘성_가고싶은공간 from "../images/7주차 작품/강휘성 7주차-4.gif";
+import 강휘성_나그리고너 from "../images/6주차 작품/GIF작품/강휘성(1).gif";
 
-import 강휘성기차1 from "../images/6주차 작품/강휘성-기차1.png";
-import 강휘성어머니1 from "../images/6주차 작품/강휘성-어머니1.png";
-import 강휘성어머니2 from "../images/6주차 작품/강휘성-어머니2.png";
-import 강휘성아버지1 from "../images/6주차 작품/강휘성-아버지1.png";
-import 강휘성아버지2 from "../images/6주차 작품/강휘성-아버지2.png";
+import 강휘성_오브젝트1 from "../images/표지/강후성-장식-3.png";
+
+const title = "나의 월드";
+const statement =
+  "이 세상에는 제임스, 마이크, 토마스, 고든, \n 그리고 설리반이 있습니다. \n 그리고 엄마, 아빠, 휘성이도 있어요. \n 나의 월드 속에서는 기분이 좋습니다.";
+
+const sec01Title = "나를 이루는 것들: 내가 좋아하는 것";
+const sec01Text =
+  "고든하고 토마스, <몬스터 주식회사>, \n 그리고 <벅스라이프>입니다.\n 내가 좋아하는 영웅들입니다.";
+const sec01Text_2 =
+  "친구도 구해주고, 좋은 꿈을 꾸게 되었습니다. \n 친구들도 만날 수 있습니다.";
+
+const sec02Title = "그곳에서의 나: 내가 좋아하는 공간";
+const sec02Text = "내가 좋아하는 공간, 침대에서 자는 게 좋아요.";
+
+const sec04Title = "그곳에서의 나: 내가 가고싶은 공간";
+const sec04Text = "내가 가고싶은 공간, 오락실의 레이싱 게임이 재미있다.";
+
+const sec05Title = "나 그리고 너: 가족들과의 산책";
+const sec05Text =
+  "엄마, 아빠와 함께 저녁에 한강으로 산책을 갔어요. \n 달구경을 하고, \n 운동을 하고, \n 흐르는 물도 봤어요.";
 
 const HwisungWorldPage = () => {
-  const navigate = useNavigate();
-
-  const backHandler = () => {
-    navigate("/student");
-  };
   return (
     <div>
-      {/* ------------------------인트로 섹션------------------------ */}
-      <Stack
-        className="introWrapper"
-        gap={3}
-        style={{
-          fontFamily: "HakgyoansimWoojuR",
-          textAlign: "center",
-        }}
-      >
-        <div className="p-2">
-          <div
-            ClassName="introImageWrapper"
-            style={{ backgroundColor: "#FDF2FF", padding: "50px 0 50px 0" }}
-          >
-            <img
-              ClassName="artwork5week"
-              alt="타이틀 예시"
-              src={타이틀예시}
-              style={{
-                width: "24%",
-              }}
-            />
-          </div>
-        </div>
-        <div className="p-2">
-          <h1 ClassName="title" style={{ margin: "50px 0 30px 0" }}>
-            나의 월드 (MY WORLD)
-          </h1>
-        </div>
-        <div className="p-2">
-          <p ClassName="artistStatement">
-            오늘 적어볼 작가소개 칸이에요! 나를 소개할 수 있는 문구들로
-            채워봅시다.
-            <br />
-            오늘 적어볼 작가소개 칸이에요! 나를 소개할 수 있는 문구들로
-            채워봅시다.
-            <br />
-            오늘 적어볼 작가소개 칸이에요! 나를 소개할 수 있는 문구들로
-            채워봅시다.
-            <br />
-          </p>
-        </div>
-      </Stack>
+      {/* ------------------------ 인트로 섹션 ------------------------ */}
+      <IntroSection
+        introColor="#3E3BFF"
+        introImage={강휘성표지}
+        title={title}
+        statement={statement}
+      />
 
-      {/* <button onClick={backHandler} style={{ fontFamily: "HakgyoansimWoojuR" }}>
-        돌아가기
-      </button> */}
+      {/* ------------------------ 섹션 01 ------------------------ */}
+      <Section02
+        title={sec01Title}
+        image={강휘성_나를이루는것들1}
+        text={sec01Text}
+      />
+      <Section01 image={강휘성_나를이루는것들2} text={sec01Text_2} />
 
-      {/* ------------------------섹션1------------------------ */}
+      {/* ------------------------ 섹션 02 ------------------------ */}
+      <Section02
+        title={sec02Title}
+        image={강휘성_좋아하는공간}
+        text={sec02Text}
+      />
 
-      <Stack
-        className="section1"
-        gap={4}
-        style={{
-          fontFamily: "HakgyoansimWoojuR",
-          whitepace: "pre-line",
-          textAlign: "center",
-          margin: "500px auto",
-        }}
-      >
+      {/* ------------------------ 섹션 03 ------------------------ */}
+      <div style={{ position: "relative" }}>
+        <Section02 image={강휘성_빠른기차고든} />
         <div
-          className="p-2"
           style={{
-            display: "flex",
-            textAlign: "left",
-            justifyContent: "center",
+            position: "absolute",
+            top: "-10%",
+            left: "60%",
           }}
         >
-          <h3
-            ClassName="section01Title"
+          <Img
+            alt="빠른기차 고든!"
+            src={강휘성_오브젝트1}
             style={{
-              width: "72%",
+              width: "20rem",
+              transform: "rotate(8deg)",
+              filter: "drop-shadow(0px 2px 3px #c3c3c3)",
             }}
-          >
-            나를 이루는 것들: 작품제목
-          </h3>
+          />
         </div>
-        <div className="p-2">
-          <div className="imageContainer">
-            <img
-              ClassName="artwork5week"
-              alt="강휘성 5주차 작품"
-              src={강휘성작품1}
-              style={{
-                width: "72%",
-              }}
-            />
-          </div>
-        </div>
-        <div
-          className="p-2"
-          style={{
-            display: "flex",
-            textAlign: "right",
-            justifyContent: "center",
-          }}
-        >
-          <p
-            style={{
-              width: "72%",
-            }}
-          >
-            '고든'하고 '토마스', 「몬스터 주식회사」, 그리고
-            「벅스라이프」입니다. <br />
-            내가 좋아하는 영웅들이에요. 친구들을 구해주고, 좋은 꿈을 꾸게
-            해줍니다.
-            <br />
-            친구도 만날 수 있습니다.
-          </p>
-        </div>
-        <div className="p-2">
-          <div className="imageContainer" style={{ margin: "200px 0 160px 0" }}>
-            <img
-              ClassName="artwork5week"
-              alt="강휘성 7주차 작품"
-              src={강휘성작품3}
-              style={{
-                width: "72%",
-              }}
-            />
-          </div>
-        </div>
-      </Stack>
+      </div>
 
-      {/* ------------------------섹션2------------------------ */}
+      {/* ------------------------ 섹션 04 ------------------------ */}
+      <Section03
+        title={sec04Title}
+        image={강휘성_가고싶은공간}
+        text={sec04Text}
+      />
 
-      <Stack
-        className="section1"
-        gap={5}
-        style={{
-          fontFamily: "HakgyoansimWoojuR",
-          whitepace: "pre-line",
-          textAlign: "center",
-        }}
-      >
-        <div
-          className="p-2"
-          style={{
-            display: "flex",
-            textAlign: "left",
-            justifyContent: "center",
-          }}
-        >
-          <h3
-            ClassName="section01Title"
-            style={{
-              width: "72%",
-            }}
-          >
-            그곳에서의 나: 내가 좋아하는 공간
-          </h3>
-        </div>
-        <div className="p-2">
-          <div className="imageContainer">
-            <img
-              ClassName="artwork7week"
-              alt="강휘성 7주차 작품"
-              src={강휘성작품2}
-              style={{
-                width: "72%",
-              }}
-            />
-          </div>
-        </div>
-        <div
-          className="p-2"
-          style={{
-            display: "flex",
-            textAlign: "left",
-            justifyContent: "center",
-          }}
-        >
-          <p
-            style={{
-              width: "72%",
-            }}
-          >
-            내가 좋아하는 공간인 '침대' <br />
-            침대에서 자는 것이 가장 좋습니다.
-          </p>
-        </div>
-      </Stack>
-
-      {/* ------------------------섹션3------------------------ */}
-
-      <Stack
-        className="section1"
-        gap={2}
-        style={{
-          fontFamily: "HakgyoansimWoojuR",
-          whitepace: "pre-line",
-          textAlign: "center",
-        }}
-      >
-        <div className="p-2">
-          <div
-            className="imageContainer"
-            style={{ margin: "400px 0px 0px 0px" }}
-          >
-            <img
-              ClassName="artwork7week"
-              alt="강휘성 7주차 작품"
-              src={강휘성작품4}
-              style={{
-                width: "72%",
-              }}
-            />
-          </div>
-        </div>
-        <div
-          className="p-2"
-          style={{
-            display: "flex",
-            textAlign: "right",
-            justifyContent: "center",
-            margin: "0px 0px 400px 0px",
-          }}
-        >
-          <p
-            style={{
-              width: "72%",
-            }}
-          >
-            빠른 기차 고든. <br />
-            증기를 내뿜으며 누구보다 빠르게 질주합니다.
-          </p>
-        </div>
-      </Stack>
-
-      {/* ------------------------섹션4------------------------ */}
-
-      <Stack
-        className="section1"
-        gap={5}
-        style={{
-          fontFamily: "HakgyoansimWoojuR",
-          whitepace: "pre-line",
-          textAlign: "center",
-        }}
-      >
-        <div
-          className="p-2"
-          style={{
-            display: "flex",
-            textAlign: "left",
-            justifyContent: "center",
-          }}
-        >
-          <h3
-            ClassName="section01Title"
-            style={{
-              width: "72%",
-            }}
-          >
-            그곳에서의 나: 내가 좋아하는 공간
-          </h3>
-        </div>
-
-        <div className="p-2">
-          <Container
-            style={{
-              display: "flex",
-              textAlign: "left",
-              justifyContent: "center",
-            }}
-          >
-            <Row>
-              <Col sm={3}>
-                <div className="imageContainer">
-                  <img
-                    ClassName="artwork5week"
-                    alt="강휘성 7주차 작품"
-                    src={강휘성작품5}
-                    style={{
-                      height: "16%",
-                    }}
-                  />
-                </div>
-              </Col>
-              <Col sm={7}>
-                <p
-                  style={{
-                    width: "72%",
-                  }}
-                >
-                  내가 좋아하는 공간인 '침대' <br />
-                  침대에서 자는 것이 가장 좋습니다.
-                </p>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </Stack>
-
-      {/* ------------------------ 이미지 요소 ------------------------ */}
-      <Stack
-        className="section1"
-        gap={2}
-        style={{
-          fontFamily: "HakgyoansimWoojuR",
-          whitepace: "pre-line",
-          textAlign: "center",
-        }}
-      >
-        <div className="p-2">
-          <div
-            className="imageContainer"
-            style={{ margin: "200px 0px 0px 0px" }}
-          >
-            <img
-              ClassName="object1"
-              alt="강휘성 기차 오브젝트"
-              src={강휘성기차1}
-              style={{
-                position: "absolute",
-                top: "80%",
-                left: "7%",
-                width: "30%",
-                transform: "rotate(3deg)",
-              }}
-            />
-            <img
-              ClassName="object1"
-              alt="강휘성 어머니1 오브젝트"
-              src={강휘성어머니1}
-              style={{
-                position: "absolute",
-                top: "520%",
-                left: "54%",
-                width: "16%",
-                transform: "rotate(-20deg)",
-              }}
-            />
-            <img
-              ClassName="object1"
-              alt="강휘성 아버지1 오브젝트"
-              src={강휘성아버지1}
-              style={{
-                position: "absolute",
-                top: "516%",
-                left: "70%",
-                width: "18%",
-                transform: "rotate(-20deg)",
-              }}
-            />
-          </div>
-        </div>
-      </Stack>
+      {/* ------------------------ 섹션 05 ------------------------ */}
+      <Section04
+        title={sec05Title}
+        image={강휘성_나그리고너}
+        text={sec05Text}
+      />
     </div>
   );
 };
 
 export default HwisungWorldPage;
+
+const Img = styled.img`
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.7em;
+  @media screen and (max-width: 480px) {
+    margin-bottom: 0.5em;
+  }
+`;
