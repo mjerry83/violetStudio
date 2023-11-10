@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/violetStudio/static/css/main.3cb21318.css",
-    "main.js": "/violetStudio/static/js/main.5be915cc.js",
+    "main.js": "/violetStudio/static/js/main.92c7b8bb.js",
     "static/js/787.71df535f.chunk.js": "/violetStudio/static/js/787.71df535f.chunk.js",
     "static/media/이원희-작품.mp4": "/violetStudio/static/media/이원희-작품.a962291b91a3537f625e.mp4",
     "static/media/배경.png": "/violetStudio/static/media/배경.3e375a7630c732f9946a.png",
@@ -28,6 +28,8 @@
     "static/media/오선민 7주차 (2).gif": "/violetStudio/static/media/오선민 7주차 (2).54eb5002b281885d5632.gif",
     "static/media/이미지.png": "/violetStudio/static/media/이미지.8afdb583b1978de84e72.png",
     "static/media/이원희-표지.png": "/violetStudio/static/media/이원희-표지.625aaff14a1e5d7604ec.png",
+    "static/media/김혜선-인물오브젝트 (1).png": "/violetStudio/static/media/김혜선-인물오브젝트 (1).95627837e9a3bd8f55be.png",
+    "static/media/문시연-인물오브젝트 (4).png": "/violetStudio/static/media/문시연-인물오브젝트 (4).c3d15ff8329b6b6c4e00.png",
     "static/media/오선민 7주차 (1).gif": "/violetStudio/static/media/오선민 7주차 (1).ee21c5b97e2bbe804ff1.gif",
     "static/media/문시연 7주차 (3).jpg": "/violetStudio/static/media/문시연 7주차 (3).56abefd57ff87bd5844c.jpg",
     "static/media/안소연 7주차 (3).gif": "/violetStudio/static/media/안소연 7주차 (3).0fd4579b6dd0c921e479.gif",
@@ -37,19 +39,24 @@
     "static/media/김혜선 7주차 (1).gif": "/violetStudio/static/media/김혜선 7주차 (1).70cdd941011305296caf.gif",
     "static/media/김혜선 7주차 (2).gif": "/violetStudio/static/media/김혜선 7주차 (2).a32b4bbd4e8368058846.gif",
     "static/media/강휘성 7주차-3.gif": "/violetStudio/static/media/강휘성 7주차-3.e05d5b90b0f636820479.gif",
+    "static/media/안소연-3.png": "/violetStudio/static/media/안소연-3.c7aae5af6b6263078d10.png",
     "static/media/문시연 7주차 (1).jpg": "/violetStudio/static/media/문시연 7주차 (1).2368a02935c3bacb7620.jpg",
+    "static/media/강휘성_5주차_오브젝트-(1).png": "/violetStudio/static/media/강휘성_5주차_오브젝트-(1).d454382f71e9a41f0977.png",
     "static/media/김시우.jpg": "/violetStudio/static/media/김시우.990b0083766d36419464.jpg",
     "static/media/강휘성 7주차-1.gif": "/violetStudio/static/media/강휘성 7주차-1.0f232426a8488e0d4ad4.gif",
+    "static/media/오선민-인물오브젝트 (3).png": "/violetStudio/static/media/오선민-인물오브젝트 (3).42a1ac559ee735879e0f.png",
     "static/media/안소연 7주차 (1).gif": "/violetStudio/static/media/안소연 7주차 (1).2991eb1fb0c5cab67edf.gif",
+    "static/media/작가소개.png": "/violetStudio/static/media/작가소개.65f651736cd4d99ce1a5.png",
+    "static/media/장애청소년-로고.png": "/violetStudio/static/media/장애청소년-로고.ae2afbe6ba4909e78611.png",
     "static/media/해시태그.png": "/violetStudio/static/media/해시태그.f7b0d7e700e66c6b7da4.png",
     "static/media/강후성-장식-3.png": "/violetStudio/static/media/강후성-장식-3.8d90d0d102bdd534eeaa.png",
     "index.html": "/violetStudio/index.html",
     "main.3cb21318.css.map": "/violetStudio/static/css/main.3cb21318.css.map",
-    "main.5be915cc.js.map": "/violetStudio/static/js/main.5be915cc.js.map",
+    "main.92c7b8bb.js.map": "/violetStudio/static/js/main.92c7b8bb.js.map",
     "787.71df535f.chunk.js.map": "/violetStudio/static/js/787.71df535f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3cb21318.css",
-    "static/js/main.5be915cc.js"
+    "static/js/main.92c7b8bb.js"
   ]
 }
