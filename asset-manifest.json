@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/violetStudio/static/css/main.f49610e1.css",
-    "main.js": "/violetStudio/static/js/main.0c4e3e8e.js",
+    "main.css": "/violetStudio/static/css/main.3cb21318.css",
+    "main.js": "/violetStudio/static/js/main.5be915cc.js",
     "static/js/787.71df535f.chunk.js": "/violetStudio/static/js/787.71df535f.chunk.js",
     "static/media/이원희-작품.mp4": "/violetStudio/static/media/이원희-작품.a962291b91a3537f625e.mp4",
+    "static/media/배경.png": "/violetStudio/static/media/배경.3e375a7630c732f9946a.png",
+    "static/media/김시우-7주차.png": "/violetStudio/static/media/김시우-7주차.bb72d8f0ec9e181ea95a.png",
     "static/media/이원희_5주차.PNG": "/violetStudio/static/media/이원희_5주차.152647666084e40d9d9c.PNG",
     "static/media/강휘성(1).gif": "/violetStudio/static/media/강휘성(1).b9d998b975a273a73051.gif",
     "static/media/안소연_5주차.png": "/violetStudio/static/media/안소연_5주차.ab70231a21417a73196a.png",
@@ -11,6 +13,7 @@
     "static/media/강휘성_5주차 (1).png": "/violetStudio/static/media/강휘성_5주차 (1).066a3f36efd80c7e2362.png",
     "static/media/김혜선(1).GIF": "/violetStudio/static/media/김혜선(1).b52bd66f5a2b5e0edad2.GIF",
     "static/media/안소연(1).GIF": "/violetStudio/static/media/안소연(1).c30a6fb02ca7d45cd58f.GIF",
+    "static/media/김혜선-표지.png": "/violetStudio/static/media/김혜선-표지.c56456d32d35bd54fe5f.png",
     "static/media/오선민(1).GIF": "/violetStudio/static/media/오선민(1).a29b5b5db8695c5ae100.GIF",
     "static/media/오선민-표지.png": "/violetStudio/static/media/오선민-표지.436124fdd04104b79cbc.png",
     "static/media/강휘성_5주차 (2).png": "/violetStudio/static/media/강휘성_5주차 (2).b704d198b170835066db.png",
@@ -23,24 +26,30 @@
     "static/media/문시연(1).GIF": "/violetStudio/static/media/문시연(1).a5b1f630ff75de20efd4.GIF",
     "static/media/안소연 7주차 (2).gif": "/violetStudio/static/media/안소연 7주차 (2).e7f3805750604e760411.gif",
     "static/media/오선민 7주차 (2).gif": "/violetStudio/static/media/오선민 7주차 (2).54eb5002b281885d5632.gif",
+    "static/media/이미지.png": "/violetStudio/static/media/이미지.8afdb583b1978de84e72.png",
+    "static/media/이원희-표지.png": "/violetStudio/static/media/이원희-표지.625aaff14a1e5d7604ec.png",
     "static/media/오선민 7주차 (1).gif": "/violetStudio/static/media/오선민 7주차 (1).ee21c5b97e2bbe804ff1.gif",
     "static/media/문시연 7주차 (3).jpg": "/violetStudio/static/media/문시연 7주차 (3).56abefd57ff87bd5844c.jpg",
     "static/media/안소연 7주차 (3).gif": "/violetStudio/static/media/안소연 7주차 (3).0fd4579b6dd0c921e479.gif",
     "static/media/강휘성 7주차-4.gif": "/violetStudio/static/media/강휘성 7주차-4.8f3fe94966b4732ae380.gif",
     "static/media/오선민 7주차 (3).gif": "/violetStudio/static/media/오선민 7주차 (3).eef9536773951153c3d1.gif",
     "static/media/문시연 7주차 (2).jpg": "/violetStudio/static/media/문시연 7주차 (2).e023fb6c885f113c9448.jpg",
+    "static/media/김혜선 7주차 (1).gif": "/violetStudio/static/media/김혜선 7주차 (1).70cdd941011305296caf.gif",
+    "static/media/김혜선 7주차 (2).gif": "/violetStudio/static/media/김혜선 7주차 (2).a32b4bbd4e8368058846.gif",
     "static/media/강휘성 7주차-3.gif": "/violetStudio/static/media/강휘성 7주차-3.e05d5b90b0f636820479.gif",
     "static/media/문시연 7주차 (1).jpg": "/violetStudio/static/media/문시연 7주차 (1).2368a02935c3bacb7620.jpg",
+    "static/media/김시우.jpg": "/violetStudio/static/media/김시우.990b0083766d36419464.jpg",
     "static/media/강휘성 7주차-1.gif": "/violetStudio/static/media/강휘성 7주차-1.0f232426a8488e0d4ad4.gif",
     "static/media/안소연 7주차 (1).gif": "/violetStudio/static/media/안소연 7주차 (1).2991eb1fb0c5cab67edf.gif",
+    "static/media/해시태그.png": "/violetStudio/static/media/해시태그.f7b0d7e700e66c6b7da4.png",
     "static/media/강후성-장식-3.png": "/violetStudio/static/media/강후성-장식-3.8d90d0d102bdd534eeaa.png",
     "index.html": "/violetStudio/index.html",
-    "main.f49610e1.css.map": "/violetStudio/static/css/main.f49610e1.css.map",
-    "main.0c4e3e8e.js.map": "/violetStudio/static/js/main.0c4e3e8e.js.map",
+    "main.3cb21318.css.map": "/violetStudio/static/css/main.3cb21318.css.map",
+    "main.5be915cc.js.map": "/violetStudio/static/js/main.5be915cc.js.map",
     "787.71df535f.chunk.js.map": "/violetStudio/static/js/787.71df535f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f49610e1.css",
-    "static/js/main.0c4e3e8e.js"
+    "static/css/main.3cb21318.css",
+    "static/js/main.5be915cc.js"
   ]
 }
